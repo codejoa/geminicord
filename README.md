@@ -28,13 +28,34 @@ cd geminicord
 pip install -r requirements.txt
 ```
 
-3. Configure environment variables (.env)
+3. Configure environment variables in `.env` file
 ```env
+# Discord Bot Token - https://discord.com/developers/applications
+# 1. Go to Discord Developer Portal
+# 2. Create New Application
+# 3. Go to Bot section
+# 4. Create Bot and copy token
 DISCORD_TOKEN=your_discord_bot_token
+
+# OpenWeather API Key - https://openweathermap.org/api
+# 1. Sign up for free account
+# 2. Go to API Keys section
+# 3. Generate API Key
 OPENWEATHER_API_KEY=your_openweather_api_key
+
+# SerpAPI Key - https://serpapi.com/
+# 1. Create free account
+# 2. Get API Key from dashboard
 SERPAPI_API_KEY=your_serpapi_api_key
+
+# Google AI (Gemini) API Key - https://aistudio.google.com/app/apikey
+# 1. Go to Google AI Studio
+# 2. Click on "Get API key"
+# 3. Create new API key or use existing one
 GENAI_API_KEY=your_google_genai_api_key
 ```
+
+
 
 ## 🔧 Function Calling Features
 
